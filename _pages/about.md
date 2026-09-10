@@ -12,7 +12,7 @@ PhD Candidate, Government — Georgetown University
 
 I build on 15 years of work experience in the international development sector, primarily with the United Nations and the World Bank, to study the political economy of development. My research focuses on the intersection of welfare regimes, labor organization, fiscal space, and electoral competition, with a regional focus on Latin America, particularly Brazil.
 
-*For citation purposes, please refer to me as Arruda.*
+*For citation purposes, please refer to me as Arruda P. L.*
 
 This site is currently under construction. Coming soon: a full list of publications, a CV, and, eventually, research code, data, and dashboards.
 
