@@ -16,4 +16,4 @@ I build on 15 years of work experience in the international development sector, 
 
 This site is currently under construction. Coming soon: a full list of publications, a CV, and, eventually, research code, data, and dashboards.
 
-In the meantime, feel free to reach out at pl764@georgetown.edu.
+In the meantime, feel free to reach out at arruda.pedrolara@gmail.com (stable) or pl764@georgetown.edu.
