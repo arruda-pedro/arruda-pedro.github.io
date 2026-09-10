@@ -24,13 +24,13 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Pedro Arruda"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
-  uri              : # URL
-  email            : "none@example.org" 
+  bio              : "PhD Candidate, Government — Georgetown University"
+  location         : "Washington, DC, USA"
+  employer         : "Georgetown University"
+  uri              : "https://gufaculty360.georgetown.edu/s/contact/0031Q00002hIpDDQA0/pedro-lara-de-arruda"
+  email            : "arruda.pedrolara@gmail.com" 
 
   # Academic websites
   academia         : # URL
