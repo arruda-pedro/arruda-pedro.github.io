@@ -21,18 +21,3 @@
 
 <!-- end custom head snippets -->
 
-<script>
-function fixSidebar() {
-  var sidebar = document.querySelector(".sidebar.sticky");
-  if (sidebar) {
-    sidebar.classList.remove("sticky");
-    sidebar.style.setProperty("position", "static", "important");
-    sidebar.style.setProperty("height", "auto", "important");
-    sidebar.style.setProperty("max-height", "none", "important");
-    sidebar.style.setProperty("overflow", "visible", "important");
-  }
-}
-document.addEventListener("DOMContentLoaded", fixSidebar);
-window.addEventListener("load", fixSidebar);
-window.addEventListener("resize", fixSidebar);
-</script>
