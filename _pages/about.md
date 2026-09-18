@@ -8,6 +8,7 @@ redirect_from:
 ---
 
 Pedro Lara de Arruda
+
 PhD Candidate, Government — Georgetown University
 
 I build on 15 years of work experience in the international development sector, primarily with the United Nations and the World Bank, to study the political economy of development. My research focuses on the intersection of welfare regimes, labor organization, fiscal space, and electoral competition, with a regional focus on Latin America, particularly Brazil.
