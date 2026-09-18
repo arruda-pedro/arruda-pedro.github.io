@@ -21,10 +21,18 @@
 
 <!-- end custom head snippets -->
 
-<style>
-  .sidebar.sticky {
-    height: auto !important;
-    max-height: none !important;
-    overflow: visible !important;
+<script>
+function fixSidebar() {
+  var sidebar = document.querySelector(".sidebar.sticky");
+  if (sidebar) {
+    sidebar.classList.remove("sticky");
+    sidebar.style.setProperty("position", "static", "important");
+    sidebar.style.setProperty("height", "auto", "important");
+    sidebar.style.setProperty("max-height", "none", "important");
+    sidebar.style.setProperty("overflow", "visible", "important");
   }
-</style>
+}
+document.addEventListener("DOMContentLoaded", fixSidebar);
+window.addEventListener("load", fixSidebar);
+window.addEventListener("resize", fixSidebar);
+</script>
