@@ -5,32 +5,64 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<!--
+ESTRUTURA DA PAGINA (sem publicacoes ainda).
+Para adicionar um item, troque o <p class="pub-empty"> da secao por uma lista:
+  <ul>
+    <li>SOBRENOME, N. (2025). <a href="URL">Titulo</a>. Veiculo.</li>
+  </ul>
+Para criar uma subcategoria nova, copie um bloco <h3 id="..."> + <p> e mude o id e o nome.
+-->
 
-{% include base_path %}
+<style>
+  .pub-index { margin: 0 0 1.5em 0; padding: 0; list-style: none; }
+  .pub-index li { margin: 0.2em 0; }
+  .pub-index ul { margin: 0.2em 0 0.6em 1.2em; padding: 0; list-style: none; }
+  .pub-empty { color: #777; font-style: italic; margin: 0.3em 0 1.2em 0; }
+  h2[id], h3[id] { scroll-margin-top: 5em; }
+</style>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<ul class="pub-index">
+  <li><a href="#academic">Academic</a></li>
+  <li><a href="#grey-literature">Grey Literature</a>
+    <ul>
+      <li><a href="#book-chapters">Book Chapters</a></li>
+      <li><a href="#research-reports">Research Reports</a></li>
+      <li><a href="#policy-research-briefs">Policy Research Briefs</a></li>
+      <li><a href="#working-papers">Working Papers</a></li>
+      <li><a href="#one-pagers">One Pagers</a></li>
+      <li><a href="#edited-journals">Edited Journals</a></li>
+      <li><a href="#atlas">Atlas</a></li>
+    </ul>
+  </li>
+  <li><a href="#op-eds">Op-Eds</a></li>
+</ul>
 
+<h2 id="academic">Academic</h2>
+<p class="pub-empty">Coming soon.</p>
 
+<h2 id="grey-literature">Grey Literature</h2>
 
+<h3 id="book-chapters">Book Chapters</h3>
+<p class="pub-empty">Coming soon.</p>
+
+<h3 id="research-reports">Research Reports</h3>
+<p class="pub-empty">Coming soon.</p>
+
+<h3 id="policy-research-briefs">Policy Research Briefs</h3>
+<p class="pub-empty">Coming soon.</p>
+
+<h3 id="working-papers">Working Papers</h3>
+<p class="pub-empty">Coming soon.</p>
+
+<h3 id="one-pagers">One Pagers</h3>
+<p class="pub-empty">Coming soon.</p>
+
+<h3 id="edited-journals">Edited Journals</h3>
+<p class="pub-empty">Coming soon.</p>
+
+<h3 id="atlas">Atlas</h3>
+<p class="pub-empty">Coming soon.</p>
+
+<h2 id="op-eds">Op-Eds</h2>
+<p class="pub-empty">Coming soon.</p>
